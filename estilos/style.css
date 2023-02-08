@@ -16,11 +16,16 @@ body {
     background: url('../pacote-social-media/imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 main {
     position: relative;
     height: 100vh;
+}
+
+section {
+    min-width: 400px;
 }
 
 section#telefone {
